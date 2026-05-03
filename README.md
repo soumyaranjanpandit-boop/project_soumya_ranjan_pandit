@@ -111,3 +111,4 @@ Used for automated evaluation.
 
 * Tumor / No Tumor
 * Confidence score
+* Grad-CAM heatmap visualization (saved as an image)
