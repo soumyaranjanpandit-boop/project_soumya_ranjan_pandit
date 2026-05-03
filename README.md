@@ -1,7 +1,7 @@
 # project_soumya_ranjan_pandit
 # Brain Tumor Classification using Deep Learning
 
-## 📌 Overview
+## Overview
 
 This project performs **binary classification** of brain MRI images into:
 
@@ -12,7 +12,7 @@ It uses a pretrained **MobileNetV2** model fine-tuned for classification.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 project_soumya_ranjan_pandit/
@@ -36,7 +36,7 @@ project_soumya_ranjan_pandit/
 
 ---
 
-## ⚙️ How to Run
+## How to Run
 
 ### Train the model
 
@@ -52,14 +52,14 @@ python predict.py
 
 ---
 
-## 🧠 Model
+## Model
 
 * MobileNetV2 (pretrained)
 * Final layer modified for binary classification
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 Defined in `config.py`:
 
@@ -70,9 +70,9 @@ Defined in `config.py`:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
-### 🔗 Data Source
+### Data Source
 
 https://www.kaggle.com/datasets/ishans24/brain-tumor-dataset
 
@@ -93,7 +93,7 @@ https://www.kaggle.com/datasets/ishans24/brain-tumor-dataset
 
 ---
 
-## 🔗 Interface
+## Interface
 
 The `interface.py` maps:
 
@@ -107,7 +107,7 @@ Used for automated evaluation.
 
 ---
 
-## ✅ Output
+## Output
 
 * Tumor / No Tumor
 * Confidence score
